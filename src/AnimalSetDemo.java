@@ -32,7 +32,7 @@ public class AnimalSetDemo {
         System.out.println("Zebra exists: " + animals.contains("Zebra"));
 
         // contains() - unsuccessful check
-        System.out.println("Result: " + animals.contains("Horse"));
+        System.out.println("Horse exists: " + animals.contains("Horse"));
 
         // remove existing animal
         animals.remove("Elephant");
