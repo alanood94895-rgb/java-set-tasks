@@ -6,6 +6,7 @@ public class CustomerSetDemo {
 
         Set<String> customerIDs = new HashSet<>();
 
+        // Add 5 customer IDs
         customerIDs.add("111");
         customerIDs.add("222");
         customerIDs.add("333");
@@ -14,6 +15,7 @@ public class CustomerSetDemo {
 
         System.out.println(customerIDs);
 
+        // Attempt to add a duplicate customer ID
         customerIDs.add("666");
 
         System.out.println(customerIDs);
