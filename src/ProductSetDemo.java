@@ -8,6 +8,7 @@ public class ProductSetDemo {
         // Create a HashSet
         Set<String> productSet = new HashSet<>();
 
+        // Add products to the set
         productSet.add("aaaa");
         productSet.add("bbbb");
         productSet.add("cccc");
