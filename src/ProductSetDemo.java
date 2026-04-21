@@ -5,6 +5,7 @@ public class ProductSetDemo {
 
     public static void main(String[] args) {
 
+        // Create a HashSet
         Set<String> productSet = new HashSet<>();
 
         productSet.add("aaaa");
