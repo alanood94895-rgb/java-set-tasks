@@ -6,6 +6,7 @@ public class CustomerSetDemo {
 
         Set<String> customerIDs = new HashSet<>();
 
+        // Add 5 customer IDs
         customerIDs.add("111");
         customerIDs.add("222");
         customerIDs.add("333");
