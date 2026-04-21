@@ -13,6 +13,7 @@ public class CustomerSetDemo {
         customerIDs.add("444");
         customerIDs.add("555");
 
+        // Attempt to add a duplicate customer ID
         System.out.println(customerIDs);
 
         customerIDs.add("666");
